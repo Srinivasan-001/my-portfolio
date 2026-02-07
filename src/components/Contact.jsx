@@ -2,8 +2,8 @@ import './Contact.css';
 
 function Contact() {
   const contactLinks = {
-    email: 'srinibai2005@gmail.com',
-    linkedin: 'linkedin.com/in/srinivasan-b-a61a4728a',
+    email: 'mailto:srinibai2005@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/srinivasan-b-a61a4728a',
     github: 'https://github.com/Srinivasan-001',
   };
 

@@ -2,9 +2,9 @@ import './Contact.css';
 
 function Contact() {
   const contactLinks = {
-    email: 'mailto:your.email@example.com',
-    linkedin: 'https://linkedin.com/in/yourprofile',
-    github: 'https://github.com/yourusername',
+    email: 'srinibai2005@gmail.com',
+    linkedin: 'linkedin.com/in/srinivasan-b-a61a4728a',
+    github: 'https://github.com/Srinivasan-001',
   };
 
   const handleContactClick = (type, url) => {

@@ -1,4 +1,5 @@
 import './About.css';
+import profilePhoto from '../assets/sri.PNG';
 
 function About() {
   return (
@@ -9,16 +10,7 @@ function About() {
           <div className="profile-image-wrapper">
             <div className="profile-image">
               <div className="profile-placeholder">
-                <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
-                  <circle cx="60" cy="60" r="60" fill="url(#gradient)" />
-                  <path d="M60 35C50.06 35 42 43.06 42 53C42 62.94 50.06 71 60 71C69.94 71 78 62.94 78 53C78 43.06 69.94 35 60 35ZM60 75C48.95 75 40 83.95 40 95H80C80 83.95 71.05 75 60 75Z" fill="white" opacity="0.9"/>
-                  <defs>
-                    <linearGradient id="gradient" x1="0" y1="0" x2="120" y2="120">
-                      <stop offset="0%" stopColor="#667eea" />
-                      <stop offset="100%" stopColor="#764ba2" />
-                    </linearGradient>
-                  </defs>
-                </svg>
+                <img src={profilePhoto} alt="Srinivasan" />
               </div>
             </div>
           </div>

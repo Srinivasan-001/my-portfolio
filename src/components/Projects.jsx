@@ -2,22 +2,28 @@ import './Projects.css';
 
 const projects = [
   {
-    title: 'Sleep Detection System',
-    description: 'An intelligent sleep detection system using OpenCV and computer vision techniques. Monitors facial features and eye movements to detect sleep patterns in real-time, with advanced image processing algorithms.',
-    tech: 'OpenCV | Python | Computer Vision',
-    githubUrl: '#',
+    title: 'CNC Based Health Monitering System',
+    description: 'Developed a CNC machine health monitoring system for real-time monitoring and maintenance of the machine.',
+    tech: 'HTML | CSS | JavaScript | Firebase | User Authentication| Realtime Database',
+    githubUrl: 'https://github.com/Srinivasan-001/cnc-monitoring-app.git',
   },
   {
-    title: 'Smart Irrigation System',
-    description: 'An IoT-based smart irrigation system that monitors soil moisture levels and automatically waters plants when needed. Features real-time sensor data, mobile app integration, and energy-efficient design.',
-    tech: 'IoT | Sensors | Embedded Systems',
-    githubUrl: '#',
+    title: 'Covid -19 Detection Using AI model',
+    description: 'An AI model that analyzes chest X-ray and CTC scan images to quickly and accurately detect COVID-19 infections',
+    tech: 'yolov11n | Pyhton| OpenCV| Flask | HTML | CSS ',
+    githubUrl: 'https://github.com/Srinivasan-001/Covid-Detection-using-CT-scan-X-ray.git',
   },
   {
-    title: 'Gender Detection App',
-    description: 'A mobile application built with Flutter and TensorFlow Lite that uses machine learning to detect gender from facial images. Features a beautiful UI, real-time processing, and high accuracy predictions.',
-    tech: 'Flutter | TFLite | Machine Learning',
-    githubUrl: '#',
+    title: 'Personal Expenses Tracker',
+    description: 'A mobile application built with Flutter that helps you track your personal expenses and income.',
+    tech: 'Flutter' ,
+    githubUrl: 'https://github.com/Srinivasan-001/codsoft_1.git',
+  },
+  {
+    title: 'Music Player',
+    description: 'A Flutter-based music player app that lets users browse, play, and control their favorite songs with a clean and interactive UI.',
+    tech: 'Flutter' ,
+    githubUrl: 'https://github.com/Srinivasan-001/codsoft_3.git',
   },
 ];
 

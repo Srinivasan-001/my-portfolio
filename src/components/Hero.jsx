@@ -1,20 +1,22 @@
 import './Hero.css';
-
+import resume from "./assets/Srini_Resume_1.pdf";
 function Hero() {
   const scrollToProjects = () => {
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
   };
 
   const downloadResume = () => {
-    // Placeholder - you can add actual resume download logic here
-    alert('Resume download coming soon!');
+    const link = document.createElement("a");
+    link.href = resume;
+    link.download = "Srini_Resume_1.pdf";
+    link.click();
   };
 
   return (
     <section className="hero" id="hero">
       <div className="hero-content">
         <h1 className="hero-name">
-          <span className="gradient-text">SRINIVASAN</span>
+          <span className="gradient-text">Srinivasn B</span>
         </h1>
         <p className="hero-title">ECE Student | Web & AI Developer</p>
         <div className="hero-buttons">

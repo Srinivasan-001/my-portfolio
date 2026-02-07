@@ -1,5 +1,5 @@
 import './Hero.css';
-import resume from "./assets/Srini_Resume_1.pdf";
+import resume from "./assets/srini.pdf";
 function Hero() {
   const scrollToProjects = () => {
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
@@ -8,7 +8,7 @@ function Hero() {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Srini_Resume_1.pdf";
+    link.download = "srini.pdf";
     link.click();
   };
 

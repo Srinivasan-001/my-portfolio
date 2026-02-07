@@ -1,5 +1,5 @@
 import './Hero.css';
-import resume from "./assets/srini.pdf";
+import resume from "../assets/srini.pdf";
 function Hero() {
   const scrollToProjects = () => {
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });

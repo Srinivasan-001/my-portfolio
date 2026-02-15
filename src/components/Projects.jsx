@@ -2,6 +2,12 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'AI-Based Plant Disease Detection and Smart Treatment System',
+    description: 'AI-powered web application that detects plant leaf diseases from uploaded images using a MobileNet-based deep learning model and generates farmer-friendly treatment recommendations through Open Router. The system is built with Flask and provides a fast, lightweight, and deployable solution for smart agriculture and crop health monitoring.',
+    tech: 'Python | Flask | HTML | CSS | MobileNet-based deep learning model | Open Router API ',
+    githubUrl: 'https://github.com/Srinivasan-001/AI-Based-Plant-Disease-Detection-System.git',
+  },
+  {
     title: 'CNC Based Health Monitering System',
     description: 'Developed a CNC machine health monitoring system for real-time monitoring and maintenance of the machine.',
     tech: 'HTML | CSS | JavaScript | Firebase | User Authentication| Realtime Database',
